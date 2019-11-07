@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#letrasmoke {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+
+.letravaper {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+}
+
+.letraciga {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.letratab {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.letraacces {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+}
+
+.letrabase {
+    color: rgba(241, 234, 234, 0.699);
+    background: rgba(0, 0, 0, .8);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.accesletra {
+    font-size: 30px;
+}
+
+.letrabase h3 {
+    color: #fff;
+}
+
+section {
+    margin: 5px;
+}
+
+#ciga {
+    width: 200px;
+    height: 200px;
+}
+
+.logo {
+    background: rgba(0, 0, 0, .5);
+    width: auto;
+}
+
+#logofooter {
+    width: 150px;
+    height: 150px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+Header {
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, .7);
+}
+
+.menu_bar {
+    display: none;
+}
+
+header nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    color: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: rgb(65, 63, 63);
+}
+
+body {
+    background: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    letter-spacing: 2px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.imgall {
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+footer #nav a {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    text-decoration: none;
+}
+
+.noSlider {
+    margin-top: 54px;
+}
+
+footer #nav a:hover {
+    text-decoration: underline;
+}
+
+.ir-arriba {
+    display: none;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.social-bar {
+    margin-top: 30px;
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 5rem;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+    width: 50%;
+    height: 50%;
+    line-height: 40px;
+}
+
+.icon {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: .7rem;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #133579;
+    border-radius: 50%;
+}
+
+.icon-instagram {
+    background: #d30909;
+}
+
+.icon :first-child {
+    border-radius: 50%;
+}
+
+.icon:last-child {
+    border-radius: 50%;
+}
+
+.icon :hover {
+    padding: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(12, 12, 12, 0.466);
+}
+
+@media screen and (max-width:1000px) {
+    header nav {
+        width: 30%;
+        height: auto;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+    header nav ul li {
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(0, 0, 0, .5);
+        font-size: 10px;
+    }
+    .menu_bar {
+        display: block;
+        width: 100%;
+        background: rgba(0, 0, 0, .5);
+    }
+    .menu_bar .btn-menu {
+        display: block;
+        padding: 20px;
+        background: rgba(0, 0, 0, .7);
+        border-bottom: 1px solid rgba(0, 0, 0, .5);
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+    .menu_bar span {
+        float: right;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    header nav {
+        display: flex;
+        justify-content: center;
+    }
+}
